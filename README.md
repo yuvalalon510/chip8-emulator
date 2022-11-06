@@ -28,20 +28,22 @@ This repo contains "Chip-8 Games Pack" from https://www.zophar.net/pdroms/chip8/
   ```
   
 # Options
-  -i: run with old instruction mode. Use this option to fix problems in some games (some of them assume a different implementation)
-  -w: run without screen wrapping. By default the graphics are wrapped. However, some games don't use wrapping so this option exists.
-  -s: silent mode. run without sound
+  * -i: run with old instruction mode. Use this option to fix problems in some games (some of them assume a different implementation)
+  * -w: run without screen wrapping. By default the graphics are wrapped. However, some games don't use wrapping so this option exists.
+  * -s: silent mode. run without sound.
  
 # In-game controls
-  CHIP-8 uses a hex keyboard. Here is the control mapping:
+  * CHIP-8 uses a hex keyboard. Here is the mapping between virtual keys and actual controls:
   
   ```
-  VITUAL KEYS         THIS EMULATOR
+  VIRTUAL KEYS         THIS EMULATOR (QWERTY KEYBOARD)
   
-  1 2 3 c             1 2 3 4
-  4 5 6 d       =>    q w e r
-  7 8 9 e             a s d f
-  a 0 b f             z x c v
+  1 2 3 c              1 2 3 4
+  4 5 6 d       =>     Q W E R
+  7 8 9 e              A S D F
+  a 0 b f              Z X C V
   ```
   
-  
+  * [P] - Pause
+  * [O] - Toggle sound
+  * [R] - Restart game
