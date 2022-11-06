@@ -1,5 +1,5 @@
 # chip8-emulator
-CHIP-8 emulator written in C
+CHIP-8 emulator written in C with SDL2 for graphics and sound.
 
 
 CHIP-8 is an interpreted programming language for microcomputers in the mid-1970s.
@@ -46,4 +46,4 @@ This repo contains "Chip-8 Games Pack" from https://www.zophar.net/pdroms/chip8/
   
   * [P] - Pause
   * [O] - Toggle sound
-  * [R] - Restart game
+  * [I] - Restart game
