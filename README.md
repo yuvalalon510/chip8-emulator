@@ -1,6 +1,8 @@
 # chip8-emulator
 CHIP-8 emulator written in C with SDL2 for graphics and sound.
 
+![Playing BRIX](chip8_brix.png)
+
 
 CHIP-8 is an interpreted programming language for microcomputers in the mid-1970s.
 Programs are run on a CHIP-8 virtual machine. 
